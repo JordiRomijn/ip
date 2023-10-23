@@ -1,0 +1,17 @@
+@import "abstracts/globals";
+@import "abstracts/variables";
+@import "abstracts/typography";
+
+@import "components/button";
+
+@import "layout/header";
+@import "layout/headerCMS";
+
+@import "pages/home";
+
+.center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
